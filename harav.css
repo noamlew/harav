@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+    background-color: rgb(53, 82, 94);
+}
+
+#text {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 60px;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 100px;
+    background-color: rgb(105 105 105 / 34%);
+    margin-bottom: 20px;
+    box-shadow: -200px -100px 200px #fff2a9b3, 200px -100px 100px #fff2a9b3, 0px -100px 100px #ffffff;
+}
+
+#text-p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Noto Rashi Hebrew", serif;
+    font-size: 25px;
+    color: gold;
+}
+
+#start {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 7px;
+    width: 163px;
+    height: 35px;
+    border-radius: 100px;
+    margin-top: 18px;
+    margin-bottom: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: "Noto Rashi Hebrew", serif;
+    font-size: 20px;
+    color: white;
+}
+
+#start:hover {
+    background-color: rgba(255, 187, 0, 0.438);
+}
+
+#copyRight {
+    font-size: 20px;
+    color: gold;
+    font-family: "Noto Rashi Hebrew", serif;
+    margin: 5px;
+}
